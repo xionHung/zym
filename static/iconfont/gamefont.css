@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4290958 */
+  src: url('//at.alicdn.com/t/c/font_4290958_tm6fd2vqwb.woff2?t=1697781415176') format('woff2'),
+       url('//at.alicdn.com/t/c/font_4290958_tm6fd2vqwb.woff?t=1697781415176') format('woff'),
+       url('//at.alicdn.com/t/c/font_4290958_tm6fd2vqwb.ttf?t=1697781415176') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-gx:before {
+  content: "\e613";
+}
+
+.icon-gczh:before {
+  content: "\e614";
+}
+
+.icon-sc:before {
+  content: "\e615";
+}
+
+.icon-gouxuan:before {
+  content: "\e612";
+}
+
+.icon-xiala2:before {
+  content: "\e610";
+}
+
+.icon-a-xiala1:before {
+  content: "\e611";
+}
+
+.icon-shijian:before {
+  content: "\e60a";
+}
+
+.icon-fabusaishi:before {
+  content: "\e60b";
+}
+
+.icon-jiage:before {
+  content: "\e60c";
+}
+
+.icon-fuzhi:before {
+  content: "\e60d";
+}
+
+.icon-xiala:before {
+  content: "\e60e";
+}
+
+.icon-didian:before {
+  content: "\e60f";
+}

@@ -1,0 +1,297 @@
+@font-face {
+	font-family: 'iconfont';
+	/* Project id 4243442 */
+	src: url('@/static/iconfont/iconfont.woff2?t=1694156831164') format('woff2'),
+		url('@/static/iconfont/iconfont.woff?t=1694156831164') format('woff'),
+		url('@/static/iconfont/iconfont.ttf?t=1694156831164') format('truetype');
+}
+
+.iconfont {
+	font-family: 'iconfont' !important;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* ul */
+.icon-ul:before {
+  content: "\e7f4";
+}
+
+/* ol */
+.icon-ol:before {
+  content: "\e7f5";
+}
+
+/* align */
+.icon-align-center:before {
+  content: "\e7f6";
+}
+
+/* underline U */
+.icon-U:before {
+  content: "\e662";
+}
+
+/* 粗体 B */
+.icon-B:before {
+  content: "\e608";
+}
+
+/* 斜体 I */
+.icon-I:before {
+  content: "\e60d";
+}
+
+.icon-h2:before {
+  content: "\e60a";
+}
+
+.icon-h3:before {
+  content: "\e60c";
+}
+
+/* 储物柜 */
+.icon-yigui:before {
+	content: '\e644';
+}
+
+/* 空调 */
+.icon-kongdiao:before {
+	content: '\e636';
+}
+
+/* 停车位 */
+.icon-tingchewei:before {
+	content: '\e61d';
+}
+
+/* 更衣室 */
+.icon-gengyishi:before {
+	content: '\e607';
+}
+
+/* 洗手间 */
+.icon-xishoujian:before {
+	content: '\e93e';
+}
+
+/* 淋浴 */
+.icon-linyu:before {
+	content: '\e645';
+}
+
+/* 木地板 */
+.icon-diban:before {
+	content: '\e643';
+}
+
+/* 分享 */
+.icon-fenxiang:before {
+	content: '\e8b0';
+}
+
+/* wifi */
+.icon-WIFI:before {
+	content: '\e8c1';
+}
+
+/* 侧灯 */
+.icon-pro_luminaire_03_emergency_light:before {
+	content: '\e7d7';
+}
+
+/* 吸烟区 */
+.icon-xiyanqu:before {
+	content: '\e615';
+}
+
+/* 充电宝 */
+.icon-battery-2-charge-fill:before {
+	content: '\e606';
+}
+
+/* 顶灯 */
+.icon-xidingdeng:before {
+	content: '\e60b';
+}
+
+/* 星星 */
+.icon-star:before {
+	content: '\e63e';
+}
+
+/* 编辑 */
+.icon-bianji:before {
+  content: "\e601";
+}
+
+/* 位置 */
+.icon-location-fill:before {
+	content: "\e650";
+}
+
+/* 微信图标 */
+.icon-weixin:before {
+	content: "\e600";
+}
+
+/* 三角向上箭头 */
+.icon-xiangshang-fill:before {
+	content: "\e76d";
+}
+
+/* 电话 */
+.icon-dianhua:before {
+	content: "\e66e";
+}
+
+/* 编辑输入 */
+.icon-edit:before {
+	content: "\e8cc";
+}
+
+/* 问号 */
+.icon-wenhao:before {
+	content: "\e8c8";
+}
+
+/* 电话实心 */
+.icon-dianhua-fill:before {
+	content: "\e729";
+}
+
+/* 羽毛球拍 */
+.icon-yumaoqiupai:before {
+	content: "\e654";
+}
+
+/* 下载 */
+.icon-yunduanxiazai:before {
+	content: "\ec1d";
+}
+
+/* 客服 */
+.icon-kefu:before {
+	content: "\ec2e";
+}
+
+/* 定位 */
+.icon-dingwei:before {
+	content: "\ec32";
+}
+
+/* 信封 */
+.icon-xiaoxi:before {
+	content: "\e611";
+}
+
+/* 点赞 */
+.icon-dianzan:before {
+	content: "\ec7f";
+}
+
+/* 钱包 */
+.icon-qianbao:before {
+	content: "\e685";
+}
+
+/* 两个人 */
+.icon-yonghu:before {
+	content: "\e651";
+}
+
+/* 微信支付 */
+.icon-weixinzhifu:before {
+	content: "\e689";
+}
+
+/* 男生符号 */
+.icon-nan:before {
+	content: "\e8b3";
+}
+
+/* 女生符号 */
+.icon-nv:before {
+	content: "\e8b4";
+}
+
+/* 我的关注 */
+.icon-wodeguanzhu:before {
+	content: "\e8bc";
+}
+
+/* 钱包1 */
+.icon-qianbao1:before {
+	content: "\e613";
+}
+
+/* 纸飞机 */
+.icon-zhifeiji:before {
+	content: "\e661";
+}
+
+/* 羽毛球 */
+.icon-yumaoqiu:before {
+	content: "\e7a3";
+}
+
+/* 粉丝 */
+.icon-fensi:before {
+	content: "\e626";
+}
+
+/* 场馆 */
+.icon-changguan:before {
+	content: "\e72a";
+}
+
+/* 钻石 */
+.icon-zuanshi:before {
+	content: "\e61e";
+}
+
+/* 支出 */
+.icon-zhichu:before {
+	content: "\e9ea";
+}
+
+/* 添加关注 */
+.icon-tianjiaguanzhu:before {
+	content: "\e6aa";
+}
+
+/* 收入 */
+.icon-shouru:before {
+	content: "\ea47";
+}
+
+/* 两个人 实心 */
+.icon-group-fill:before {
+	content: "\e700";
+}
+
+/* 爱心 */
+.icon-aixin-fill:before {
+	content: "\e65c";
+}
+
+/* 爱心 */
+.icon-aixin:before {
+	content: "\e68d";
+}
+
+/* 消息 */
+.icon-message:before {
+	content: "\e70c";
+}
+
+/* 第一名奖牌 */
+.icon-diyi:before {
+  content: "\e602";
+}
+
+/* 意见反馈 */
+.icon-yijian:before {
+  content: "\e616";
+}

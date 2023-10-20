@@ -1,0 +1,50 @@
+// 通用样式
+
+.level {
+	height: 22rpx;
+	line-height: 20rpx;
+	border: 2rpx solid #2793e1;
+	border-radius: 10rpx;
+	color: #2793e1;
+	text-align: center;
+	padding: 0 8rpx;
+	font-size: 16rpx;
+	font-weight: bold;
+	box-sizing: border-box;
+}
+
+.position {
+	height: 22rpx;
+	line-height: 20rpx;
+	border: 2rpx solid #ff7b42;
+	border-radius: 10rpx;
+	color: #ff7b42;
+	text-align: center;
+	padding: 0 8rpx;
+	font-size: 16rpx;
+	font-weight: bold;
+	box-sizing: border-box;
+}
+
+.more-btn {
+	position: relative;
+	width: 120rpx;
+	text-align: right;
+}
+
+.more-btn .tooltip {
+	position: absolute;
+	right: 0;
+	max-width: 104rpx;
+	padding: 0 8rpx;
+	height: 94rpx;
+	background: #ffffff;
+	box-shadow: 1rpx 1rpx 9rpx 0rpx rgba(102, 102, 102, 0.27);
+	border-radius: 10rpx;
+	z-index: 10;
+}
+
+.more-btn .tooltip .btn {
+	line-height: 47rpx;
+	text-align: center;
+}

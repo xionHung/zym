@@ -1,0 +1,164 @@
+page {
+
+		background: rgba(247, 247, 247, 1);
+	}
+
+	.page-container {
+		padding: 0 30rpx;
+		overflow: auto !important;
+	}
+
+	.title {
+		font-size: 32rpx;
+		font-family: PingFang SC;
+		font-weight: bold;
+		line-height: 45rpx;
+		color: #333333;
+	}
+
+	.card {
+		border-radius: 10rpx;
+		background: #fff;
+		padding: 30rpx 20rpx 0 20rpx;
+
+		.containerJ {
+			margin-top: 20rpx;
+		}
+			.border{
+				border-bottom: 1px solid #D8D8D8;
+			}
+
+	}
+
+	.btn {
+		width: 416rpx;
+		height: 88rpx;
+		background: rgba(254, 106, 28, 1);
+		box-shadow: 1rpx 1rpx 15rpx #FE6A1C;
+		opacity: 1;
+		border-radius: 44rpx;
+		color: #fff;
+		text-align: center;
+		line-height: 88rpx;
+		margin: 100rpx auto;
+	}
+
+	.md-from-item {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding-bottom: 20rpx;
+		padding-top: 20rpx;
+		position: relative;
+
+		&.border {
+			border-bottom: 1rpx solid $border-color;
+		}
+
+		.label {
+			color: #333;
+
+			.requried {
+				color: $themeColor;
+				margin-left: 10rpx;
+			}
+		}
+
+		.input {
+			color: #333;
+			font-size: 26rpx;
+			border: 0;
+			outline: none;
+			text-align: right;
+			flex: 1;
+		}
+
+		.input-place {
+			color: #999;
+			font-size: 26rpx;
+			// font-weight: bold;
+		}
+
+		.remark {
+			position: absolute;
+			bottom: -22rpx;
+			left: 0;
+			color: #999;
+			font-size: 18rpx;
+			line-height: 1;
+		}
+
+		.check-box {
+			flex: 1;
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
+
+			.icon-right {
+				font-size: 30rpx;
+				color: #999;
+			}
+		}
+	}
+	.cardPerson{
+		padding: 28rpx 0;
+		
+		.itemPerson{
+			width: 118rpx;
+			
+			margin-right: 53rpx;
+			margin-bottom: 28rpx;
+			&:nth-child(4n){
+				margin-right: 0;
+			}
+			.personInfo{
+				text-align: center;
+				view:nth-child(1){
+					font-size: 30rpx;
+					margin-top: 14rpx;
+				}
+				view:nth-child(2){
+					font-size: 26rpx;
+					color: #999;
+				}
+			}
+			.header{
+				width: 118rpx;
+				height: 118rpx;
+				border-radius: 50%;
+				position: relative;
+				
+				.mask{
+					position: absolute;
+					left: 0;
+					top: 0;
+					width: 100%;
+					height: 100%;
+					border-radius: 50%;
+					
+background: rgba(104,104,104,0.39);
+				}
+				.icon-fabusaishi{
+					position: absolute;
+					color: #fff;
+					font-size: 42rpx;
+					left: 50%;
+					top: 50%;
+					transform: translate(-50%,-50%);
+				}
+				.headerImage{
+					width: 100%;
+					height: 100%;
+					border-radius: 50%;
+				}
+				.del{
+					position: absolute;
+					width:38rpx;
+					height: 38rpx;
+					right: -8rpx;
+					top:2rpx;
+					color: #DB3434;
+				}
+			}
+		}
+	}

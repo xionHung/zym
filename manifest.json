@@ -1,0 +1,236 @@
+{
+	"name": "ZYM",
+	"appid": "__UNI__3F02060",
+	"description": "",
+	"versionName": "1.0.0",
+	"versionCode": 100,
+	"transformPx": false,
+	/* 5+App特有相关 */
+	"app-plus": {
+		"usingComponents": true,
+		"nvueStyleCompiler": "uni-app",
+		"compilerVersion": 3,
+		"splashscreen": {
+			"alwaysShowBeforeRender": true,
+			"waiting": true,
+			"autoclose": true,
+			"delay": 0
+		},
+		/* 模块配置 */
+		"modules": {
+			"Payment": {},
+			"iBeacon": {}
+		},
+		/* 应用发布信息 */
+		"distribute": {
+			/* android打包配置 */
+			"android": {
+				"permissionPhoneState": {
+					"request": "once",
+					"prompt": "为保证您正常、安全地使用，需要获取设备识别码(部分手机提示为获取手机号码)使用权限，请允许。"
+				},
+				"permissionExternalStorage": {
+					"request": "once",
+					"prompt": "应用保存运行状态等信息，需要获取读写手机存储(系统提示为访问设备上的照片、媒体内容和文件)权限，请允许。"
+				},
+				"permissions": [
+					"<uses-feature android:name=\"android.hardware.camera\"/>",
+					"<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+					"<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+					"<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+					"<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+					"<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+					"<uses-permission android:name=\"android.permission.ACCOUNT_MANAGER\"/>",
+					"<uses-permission android:name=\"android.permission.AUTHENTICATE_ACCOUNTS\"/>",
+					"<uses-permission android:name=\"android.permission.BATTERY_STATS\"/>",
+					"<uses-permission android:name=\"android.permission.BIND_INPUT_METHOD\"/>",
+					"<uses-permission android:name=\"android.permission.BIND_PRINT_SERVICE\"/>",
+					"<uses-permission android:name=\"android.permission.BIND_REMOTEVIEWS\"/>",
+					"<uses-permission android:name=\"android.permission.BLUETOOTH\"/>",
+					"<uses-permission android:name=\"android.permission.BLUETOOTH_ADMIN\"/>",
+					"<uses-permission android:name=\"android.permission.BLUETOOTH_PRIVILEGED\"/>",
+					"<uses-permission android:name=\"android.permission.CAMERA\"/>",
+					"<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+					"<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+					"<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+					"<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+					"<uses-permission android:name=\"android.permission.INTERNET\"/>",
+					"<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+					"<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+					"<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+					"<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+					"<uses-permission android:name=\"android.permission.READ_SMS\"/>",
+					"<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\"/>",
+					"<uses-permission android:name=\"android.permission.SEND_SMS\"/>",
+					"<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+					"<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+					"<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+					"<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>",
+					"<uses-permission android:name=\"android.permission.WRITE_SMS\"/>",
+					"<uses-permission android:name=\"android.permission.BLUETOOTH\"/>",
+					"<uses-permission android:name=\"android.permission.BLUETOOTH_ADMIN\"/>"
+				],
+				"abiFilters": [
+					"armeabi-v7a",
+					"arm64-v8a"
+				],
+				"autoSdkPermissions": false,
+				"minSdkVersion": 23,
+				"schemes": "cgj"
+			},
+			/* ios打包配置 */
+			"ios": {
+				"idfa": false,
+				"privacyDescription": {
+					"NSMicrophoneUsageDescription": "开启语音直播",
+					"NSPhotoLibraryUsageDescription": "上传图片",
+					"NSLocationAlwaysAndWhenInUseUsageDescription": "获取用户当前所在地区"
+				}
+			},
+			/* SDK配置 */
+			"sdkConfigs": {
+				"maps": {
+					"amap": {
+						"appkey_ios": "7d8f01b7d2fa02d3013fbca0b608192a",
+						"appkey_android": "1cba8decaf646cd82dfa2e9e867a9b86"
+					}
+				},
+				"geolocation": {
+					"amap": {
+						"__platform__": [
+							"ios",
+							"android"
+						],
+						"appkey_ios": "7d8f01b7d2fa02d3013fbca0b608192a",
+						"appkey_android": "1cba8decaf646cd82dfa2e9e867a9b86"
+					}
+				},
+				"ad": {},
+				"payment": {
+					"weixin": {
+						"__platform__": [
+							"android"
+						],
+						"appid": "wx38896b9d1ec62653",
+						"UniversalLinks": "https://www.api.tydarling.com/app/"
+					}
+				},
+				"push": {},
+				"oauth": {},
+				"share": {
+					"qq": {
+						"appid": "",
+						"UniversalLinks": ""
+					},
+					"weixin": {
+						"appid": "",
+						"UniversalLinks": ""
+					}
+				}
+			},
+			"icons": {
+				"android": {
+					"hdpi": "unpackage/res/icons/AppIcon72x72.png",
+					"xhdpi": "unpackage/res/icons/AppIcon96x96.png",
+					"xxhdpi": "unpackage/res/icons/AppIcon144x144.png",
+					"xxxhdpi": "unpackage/res/icons/AppIcon192x192.png"
+				},
+				"ios": {
+					"appstore": "unpackage/res/icons/AppIcon1024x1024.png",
+					"ipad": {
+						"app": "unpackage/res/icons/AppIcon76x76.png",
+						"app@2x": "unpackage/res/icons/AppIcon152x152.png",
+						"notification": "unpackage/res/icons/AppIcon20x20.png",
+						"notification@2x": "unpackage/res/icons/AppIcon40x40.png",
+						"proapp@2x": "unpackage/res/icons/AppIcon167x167.png",
+						"settings": "unpackage/res/icons/AppIcon29x29.png",
+						"settings@2x": "unpackage/res/icons/AppIcon58x58.png",
+						"spotlight": "unpackage/res/icons/AppIcon40x40.png",
+						"spotlight@2x": "unpackage/res/icons/AppIcon80x80.png"
+					},
+					"iphone": {
+						"app@2x": "unpackage/res/icons/AppIcon120x120.png",
+						"app@3x": "unpackage/res/icons/AppIcon180x180.png",
+						"notification@2x": "unpackage/res/icons/AppIcon40x40.png",
+						"notification@3x": "unpackage/res/icons/AppIcon60x60.png",
+						"settings@2x": "unpackage/res/icons/AppIcon58x58.png",
+						"settings@3x": "unpackage/res/icons/AppIcon87x87.png",
+						"spotlight@2x": "unpackage/res/icons/AppIcon80x80.png",
+						"spotlight@3x": "unpackage/res/icons/AppIcon120x120.png"
+					}
+				}
+			},
+			"splashscreen": {
+				"iosStyle": "common",
+				"androidStyle": "common",
+				"android": {
+					"hdpi": "D:/桌面/app/盒子人144px.png",
+					"xxhdpi": "D:/桌面/app/盒子人144px.png",
+					"xhdpi": "D:/桌面/app/盒子人144px@2x.png"
+				},
+				"useOriginalMsgbox": true
+			}
+		},
+		"nativePlugins": {},
+		"uniStatistics": {
+			"enable": false
+		}
+	},
+	/* 快应用特有相关 */
+	"quickapp": {},
+	/* 小程序特有相关 */
+	"mp-weixin": {
+		"appid": "wxdea29b6b261b40d5",
+		"setting": {
+			"urlCheck": false,
+			"es6": true,
+			"postcss": true,
+			"minified": true
+		},
+		"usingComponents": true,
+		"permission": {
+			"scope.userFuzzyLocation": {
+				"desc": "获取用户所在地区"
+			},
+			"scope.userLocation": {
+				"desc": "获取位置信息用于展示"
+			}
+		},
+		"lazyCodeLoading": "requiredComponents",
+		"optimization": {
+			"subPackages": true
+		},
+		"requiredPrivateInfos": [
+			"getLocation"
+		]
+	},
+	"mp-alipay": {
+		"usingComponents": true
+	},
+	"mp-baidu": {
+		"usingComponents": true
+	},
+	"mp-toutiao": {
+		"usingComponents": true
+	},
+	"uniStatistics": {
+		"enable": false
+	},
+	"vueVersion": "2",
+	"h5": {
+		"sdkConfigs": {
+			"maps": {
+				"qqmap": {
+					"key": "KNRBZ-VTYRJ-PLGF3-KGWQ2-EJEPZ-NSBTQ"
+				}
+			}
+		}
+	},
+	"mp-lark": {
+		"uniStatistics": {
+			"enable": false
+		}
+	}
+}
+/* ios打包配置 */
+/* SDK配置 */

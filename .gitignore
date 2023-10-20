@@ -1,0 +1,14 @@
+.hbuilderx
+
+/unpackage
+
+node_modules
+
+
+.idea
+.vscode
+/nativeplugins/zego-ZegoExpressUniAppSDK
+
+package-lock.json
+yarn.lock
+.DS_Store

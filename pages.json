@@ -1,0 +1,631 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^md-(.*)": "@/uni_modules/md-ui/md-$1/md-$1.vue"
+		}
+	},
+	"pages": [
+		{
+			"path": "pages/cover/cover",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "启动页"
+			}
+		},
+		{
+			"path": "pages/map/map",
+			"style": {
+				"navigationBarTitleText": "羽球地图"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "微信登录"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"navigationBarBackgroundColor": "#52AE80",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/editor/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"subPackages": [
+		// home other 分包
+		{
+			"root": "pages/home/other",
+			"pages": [
+				{
+					"path": "message",
+					"style": {
+						"navigationBarTitleText": "消息"
+					}
+				},
+				{
+					// 首页 打球积分 | 本月消费 | 本月场次
+					"path": "data",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					// 首页-羽乐圈
+					"path": "badminton-circle",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					// 首页-球馆
+					"path": "arena",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "arena/solitaire", //球馆接龙
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "arena/club", //球馆俱乐部
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "arena/recharge", //球馆会员充值
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "arena/card", //球馆羽盟卡
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "arena/transactionDetails", //球馆羽盟卡交易明细
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "arena/details", //球馆充值交易明细
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "arena/errorPage", //球馆球馆报错
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					// 接龙 | 俱乐部 列表页
+					"path": "solitaire",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "check-city",
+					"style": {
+						"navigationBarTitleText": "城市列表"
+					}
+				},
+				{
+					"path": "badminton-circle/nearby",
+					"style": {
+						"navigationBarTitleText": "附近球友",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "badminton-circle/complain",
+					"style": {
+						"navigationBarTitleText": "投诉",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "badminton-circle/my-collect",
+					"style": {
+						"navigationBarTitleText": "我的收藏",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "badminton-circle/message",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "消息",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "badminton-circle/message-detail",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "消息详情",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "badminton-circle/attention-list",
+					"style": {
+						"navigationBarTitleText": "关注列表",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "search",
+					"style": {
+						"navigationBarTitleText": "搜索",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "badminton-circle/youxia",
+					"style": {
+						"navigationBarTitleText": "游侠榜",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		},
+		// 我的相关 分包
+		{
+			"root": "pages/mine",
+			"pages": [
+				{
+					"path": "order/index",
+					"style": {
+						"navigationBarTitleText": "我的订单"
+					}
+				},
+				{
+					"path": "other/my-arena",
+					"style": {
+						"navigationBarTitleText": "我的球馆"
+					}
+				},
+				{
+					"path": "other/my-club",
+					"style": {
+						"navigationBarTitleText": "我的俱乐部"
+					}
+				},
+				{
+					"path": "settings",
+					"style": {
+						"navigationBarTitleText": "设置"
+					}
+				},
+				{
+					// 设置详情
+					"path": "settings/detail",
+					"style": {
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "settings/share",
+					"style": {
+						"navigationBarTitleText": "分享",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "person/person",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "个人中心",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "coupon/coupon",
+					"style": {
+						"navigationBarTitleText": "我的卡券",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "coupon/detail",
+					"style": {
+						"navigationBarTitleText": "卡券详情",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "person/detail",
+					"style": {
+						"navigationBarTitleText": "个人资料",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "person/dan",
+					"style": {
+						"navigationBarTitleText": "段位自评",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "person/yudong-life",
+					"style": {
+						"navigationBarTitleText": "羽动人生",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "person/honor",
+					"style": {
+						"navigationBarTitleText": "个人荣誉/证书",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "person/honor-add",
+					"style": {
+						"navigationBarTitleText": "添加荣誉",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "person/share-details",
+					"style": {
+						"navigationBarTitleText": "动态详情",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "person/share-send",
+					"style": {
+						"navigationBarTitleText": "发帖",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "person/create",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "我的信息",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "self-help",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "自助中心",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "distribute",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "帮分销",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "selfHelp/detail",
+					"style": {
+						"navigationBarTitleText": "自助中心详情",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		},
+		// 接龙相关 分包
+		{
+			"root": "pages/chains",
+			"pages": [
+				{
+					"path": "chainsDetail", //接龙详情
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "application", //接龙报名
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "settlement", //AA结算
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "paymentDetails", //收款明细
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "payment", //收款明细
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "create", //发布接龙
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "manage", //管理接龙
+					"style": {
+						"navigationStyle": "custom"
+					}
+				}
+			]
+		},
+		// 俱乐部相关 分包
+		{
+			"root": "pages/club",
+			"pages": [
+				{
+					"path": "index", //俱乐部详情
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "member", //俱乐部成员
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "rule", //俱乐部活跃度规则
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "create", //创建俱乐部
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "manage", //管理俱乐部
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "memberData", //成员数据
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "withdrawal", //提现到账记录
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "fundDetails", //资金明细
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "choose", //选人
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "settlement", //结算情况
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "settlementDetails", //收支详情
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "memberManage", //成员管理
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "setMember", //设置管理员
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "message", //加入申请
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "indexSetting",
+					"style": {
+						"navigationBarTitleText": "俱乐部主页设置",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/arena",
+			"pages": [
+				{
+					"path": "create", //创建球馆
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "choose", //选择活动场馆
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "predetermine", //场地预定
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "detail", //球馆详情
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "more", //球馆更多信息
+					"style": {
+						"navigationStyle": "custom"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/game",
+			"pages": [
+				{
+					"path": "index",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "detail",
+					"style": {
+						"navigationBarTitleText": "赛事详情"
+					}
+				},
+				{
+					"path": "createTeam",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},{
+					"path": "signUp",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "createTeamMember",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "chooseGroup",
+					"style": {
+						"navigationBarTitleText": "选择组别"
+					}
+				},
+				{
+					"path": "chooseTeamMember",
+					"style": {
+						"navigationBarTitleText": "选择队员"
+					}
+				},
+				{
+					"path": "signUpPerson",
+					"style": {
+						"navigationBarTitleText": "报名"
+					}
+				}
+			]
+		}
+	],
+	"tabBar": {
+		"color": "#CCCCCC",
+		"selectedColor": "#EC6826",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"iconWidth": "18px",
+		"spacing": "4px",
+		"height": "100px",
+		"fontSize": "10px",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/select-home.png"
+			},
+			{
+				"pagePath": "pages/map/map",
+				"text": "羽球地图",
+				"iconPath": "static/tabbar/map.png",
+				"selectedIconPath": "static/tabbar/select-map.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/tabbar/mine.png",
+				"selectedIconPath": "static/tabbar/select-mine.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"navigationBarTitleText": "中羽盟",
+		"enablePullDownRefresh": false,
+		"app-plus": {
+			"animationType": "slide-in-bottom",
+			"animationDuration": 300,
+			"titleNView": false,
+			"bounce": "none"
+		},
+		"usingComponents": {}
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
